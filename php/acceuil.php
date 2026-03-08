@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Département Informatique - EFREI</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <script defer src="js/script.js"></script>
-</head>
-
-<body>
-
-<header>
-    <div class="logo-container">
-        <img src="../images/Unknown.png" alt="Logo EFREI" class="logo" width="100">
-        <span class="logo-text">Département Informatique</span>
-    </div>
-
-    <nav>
-        <ul>
-            <li><a href="acceuil.html">Accueil</a></li>
-            <li><a href="formations.html">Formations</a></li>
-            <li><a href="equipe.html">Équipe</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-
+<?php include("header.php"); ?>
 <main>
 
     <!-- HERO -->
@@ -38,7 +11,7 @@
                 De la cybersécurité à l’intelligence artificielle, nous préparons
                 les leaders technologiques de demain.
             </p>
-            <button onclick="scrollToSection()">Découvrir nos expertises</button>
+            <button onclick="window.location.href='equipe.html';">découvert notre équipe experts</button>
         </div>
     </section>
 
@@ -390,10 +363,5 @@
     </section>
 
 </main>
+<?php include("footer.php"); ?>
 
-<footer>
-    © 2026 Département Informatique - EFREI
-</footer>
-
-</body>
-</html>
