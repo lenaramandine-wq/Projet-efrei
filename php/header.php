@@ -11,7 +11,7 @@
 
 <header>
     <div class="logo-container">
-        <img src="../images/Unknown.png" alt="Logo EFREI" class="logo" width="100">
+        <img src="../images/logo_efrei_bleu_petit.png" alt="Logo EFREI" class="logo" width="100">
         <span class="logo-text">Département Informatique</span>
     </div>
     <?php include("navigation.php"); ?>

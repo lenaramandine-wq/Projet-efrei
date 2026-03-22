@@ -1,38 +1,36 @@
 <?php include("header.php"); ?>
+<?php include("navigation.php")?>
+
 <main>
 
-    <!-- HERO -->
     <section class="hero">
         <div class="hero-box">
-            <h2>Construire les Architectes du Numérique</h2>
+            <h2>Façonner les ingénieurs et experts du numérique de demain</h2>
             <p>
                 Le Département Informatique de l’EFREI forme des experts capables de concevoir,
                 sécuriser et innover dans un monde numérique en constante évolution.
                 De la cybersécurité à l’intelligence artificielle, nous préparons
                 les leaders technologiques de demain.
             </p>
-            <button onclick="window.location.href='equipe.html';">découvert notre équipe experts</button>
+            <div class="hero-buttons">
+                <button onclick="window.location.href='equipe.php';">Découvrir notre équipe d'experts</button>
+                <button onclick="window.location.href='https://www.efrei.fr/admission/admissions-programme-grande-ecole/?utm_term=&utm_campaign=Performance+Max+-+PGE+-+Post+BAC&utm_source=adwords&utm_medium=ppc&hsa_acc=6215188330&hsa_cam=23554949038&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=23554991893&gbraid=0AAAAADsfxTa0jeaKpWzqxRboEQy47qxg5&gclid=Cj0KCQiA2bTNBhDjARIsAK89wlH0OikuxPHncnXG1oSycLZnDJPC4UL_pCknetN3rvE41EWVHyA4VcAaAkd0EALw_wcB';">Admissions PGE</button>
+            </div>
         </div>
     </section>
-
-    <!-- PRESENTATION -->
-
     <section id="presentation">
         <h2 class="section-title">L'informatique, bien plus qu'un diplôme</h2>
-
         <div class="presentation-container">
             <div class="card">
                 <span class="card-badge">01</span>
                 <h3>Innovation</h3>
                 <p>Un cursus axé sur les technologies émergentes et l'excellence académique pour anticiper les défis de demain.</p>
             </div>
-
             <div class="card">
                 <span class="card-badge">02</span>
                 <h3>Professionnalisation</h3>
                 <p>Des programmes co-construits avec nos partenaires industriels pour une insertion directe sur le marché.</p>
             </div>
-
             <div class="card">
                 <span class="card-badge">03</span>
                 <h3>Accompagnement</h3>
@@ -41,327 +39,56 @@
         </div>
     </section>
 
-    <section>
-        <h2 class="section-title">Compétences Techniques Acquises</h2>
-
+    <section id="chiffres-cles">
+        <h2 class="section-title">Chiffres Clés du Département</h2>
         <div class="cards">
             <div class="card">
-                <h3>Langages</h3>
-                <p>Python, Java, C, JavaScript, SQL</p>
+                <h3>98%</h3>
+                <p>Taux de satisfaction des étudiants</p>
             </div>
-
             <div class="card">
-                <h3>Outils & Technologies</h3>
-                <p>Docker, Kubernetes, Git, Linux, AWS, Azure</p>
+                <h3>14 000+</h3>
+                <p>Diplômés dans le secteur du numérique</p>
             </div>
-
-            <div class="card">
-                <h3>Méthodes</h3>
-                <p>Agile, Scrum, DevOps, ITIL</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- CHIFFRES CLES -->
-    <section>
-        <h2 class="section-title">Chiffres Clés</h2>
-
-        <div class="cards">
-
-            <div class="card">
-                <h3>95%</h3>
-                <p>Taux d’insertion professionnelle en moins de 6 mois</p>
-            </div>
-
             <div class="card">
                 <h3>120+</h3>
-                <p>Entreprises partenaires en France et à l’international</p>
+                <p>Partenaires entreprises clés</p>
             </div>
-
             <div class="card">
-                <h3>15</h3>
-                <p>Laboratoires technologiques spécialisés</p>
+                <h3>95%</h3>
+                <p>Embauche avant l'obtention du diplôme</p>
             </div>
-
-            <div class="card">
-                <h3>30+</h3>
-                <p>Universités partenaires à l’étranger</p>
-            </div>
-
         </div>
     </section>
-
-    <section>
-        <h2 class="section-title">Ouverture Internationale</h2>
-
-        <div class="card">
-            <p>
-                Nos étudiants peuvent effectuer un semestre ou une année
-                dans des universités partenaires en Europe, Amérique du Nord et Asie.
-            </p>
-
-            <ul>
-                <li>✔ Double diplôme possible</li>
-                <li>✔ Stages à l’étranger</li>
-                <li>✔ Programmes Erasmus+</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- EXPERTISE -->
     <section>
         <h2 class="section-title">Nos Expertises</h2>
-
         <div class="cards">
-
             <div class="card">
                 <h3>Cybersécurité</h3>
-                <p>
-                    Formation en sécurité offensive et défensive :
-                    pentesting, audit, cryptographie, SOC,
-                    gestion des incidents et cyberdéfense.
-                </p>
+                <p>Formation en sécurité offensive et défensive.</p>
             </div>
-
             <div class="card">
                 <h3>Intelligence Artificielle</h3>
-                <p>
-                    Machine Learning, Deep Learning,
-                    traitement du langage naturel,
-                    vision par ordinateur et Big Data.
-                </p>
+                <p>Machine Learning, Deep Learning et Big Data.</p>
             </div>
-
             <div class="card">
                 <h3>Cloud & DevOps</h3>
-                <p>
-                    Architectures cloud (AWS, Azure),
-                    conteneurisation (Docker, Kubernetes),
-                    automatisation CI/CD.
-                </p>
+                <p>Architectures cloud et automatisation CI/CD.</p>
             </div>
-
             <div class="card">
                 <h3>Développement Logiciel</h3>
-                <p>
-                    Applications web et mobiles,
-                    architectures microservices,
-                    développement full-stack moderne.
-                </p>
-            </div>
-
-        </div>
-    </section>
-
-    <section>
-        <h2 class="section-title">Débouchés Professionnels</h2>
-
-        <div class="cards">
-            <div class="card">
-                <h3>Ingénieur Cybersécurité</h3>
-                <p>
-                    Audit, pentesting, SOC, gestion des incidents.
-                </p>
-                <p><strong>Salaire débutant :</strong> 38 000€ – 45 000€</p>
-            </div>
-
-            <div class="card">
-                <h3>Data Scientist</h3>
-                <p>
-                    Analyse de données, machine learning,
-                    modélisation prédictive.
-                </p>
-                <p><strong>Salaire débutant :</strong> 40 000€ – 48 000€</p>
-            </div>
-
-            <div class="card">
-                <h3>Cloud Architect</h3>
-                <p>
-                    Conception d’infrastructures cloud sécurisées.
-                </p>
-                <p><strong>Salaire débutant :</strong> 42 000€ – 50 000€</p>
+                <p>Applications web/mobiles et microservices.</p>
             </div>
         </div>
     </section>
 
-    <!-- PEDAGOGIE -->
-    <section>
-        <h2 class="section-title">Notre Pédagogie</h2>
-
-        <div class="card">
-            <p>
-                Notre approche pédagogique repose sur :
-            </p>
-
-            <ul>
-                <li>✔ Projets réels encadrés par des experts</li>
-                <li>✔ Alternance possible dès la 2e année</li>
-                <li>✔ Hackathons et compétitions technologiques</li>
-                <li>✔ Certifications professionnelles reconnues</li>
-                <li>✔ Interventions régulières de professionnels</li>
-            </ul>
-
-            <p>
-                Les étudiants travaillent sur des problématiques concrètes
-                issues du monde industriel afin de développer
-                leurs compétences techniques et managériales.
-            </p>
-        </div>
-    </section>
-
-    <!-- VIE ETUDIANTE -->
-    <section>
-        <h2 class="section-title">Vie Étudiante & Innovation</h2>
-
-        <div class="cards">
-
-            <div class="card">
-                <h3>Hackathons</h3>
-                <p>
-                    Organisation annuelle d’un hackathon technologique
-                    réunissant étudiants et entreprises partenaires.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>Associations Tech</h3>
-                <p>
-                    Clubs cybersécurité, robotique, blockchain
-                    et intelligence artificielle.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>Incubateur Startup</h3>
-                <p>
-                    Accompagnement des étudiants souhaitant lancer
-                    leur propre projet entrepreneurial.
-                </p>
-            </div>
-
-        </div>
-    </section>
-
-    <section>
-        <h2 class="section-title">Projets Étudiants</h2>
-
-        <div class="cards">
-            <div class="card">
-                <h3>Application de Détection d’Intrusion</h3>
-                <p>
-                    Développement d’un système IA capable
-                    de détecter des cyberattaques en temps réel.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>Plateforme Cloud Sécurisée</h3>
-                <p>
-                    Conception d’une infrastructure cloud
-                    avec haute disponibilité.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- STATISTIQUES ANIMEES -->
-    <section class="stats">
-        <div class="stat">
-            <h3 id="etudiants">6000</h3>
-            <p>Étudiants actuellement inscrits</p>
-        </div>
-
-        <div class="stat">
-            <h3 id="projets">+2000</h3>
-            <p>Projets réalisés avec entreprises partenaires</p>
-        </div>
-
-        <div class="stat">
-            <h3 id="enseignants">490</h3>
-            <p>Enseignants & experts professionnels</p>
-        </div>
-    </section>
-
-    <section>
-        <h2 class="section-title">Témoignages de nos diplômés</h2>
-
-        <div class="cards">
-
-            <div class="card">
-                <h3>Lucas Martin – Promotion 2024</h3>
-                <p><strong>Poste actuel :</strong> Ingénieur Cybersécurité – Société internationale</p>
-
-                <p>
-                    Spécialisé en cybersécurité à l’EFREI, Lucas a réalisé son stage de fin d’études
-                    au sein d’un SOC (Security Operations Center) où il a travaillé sur la détection
-                    d’intrusions et l’analyse d’attaques en temps réel.
-                </p>
-
-                <p>
-                    Aujourd’hui, il supervise la sécurité d’infrastructures cloud critiques
-                    et participe à des audits de sécurité à l’échelle européenne.
-                </p>
-
-                <blockquote>
-                    "La spécialisation cybersécurité m’a permis d’acquérir une vraie expertise technique.
-                    Les projets pratiques et les simulations d’attaques étaient très proches de la réalité.
-                    J’ai été recruté avant même la fin de mon diplôme."
-                </blockquote>
-            </div>
-
-            <div class="card">
-                <h3>Sofia Benali – Promotion 2023</h3>
-                <p><strong>Poste actuel :</strong> Data Scientist – Startup IA</p>
-
-                <p>
-                    Après une spécialisation en Data & Intelligence Artificielle,
-                    Sofia a travaillé sur des modèles de machine learning appliqués
-                    à l’analyse prédictive.
-                </p>
-
-                <p>
-                    Elle a participé à plusieurs hackathons et projets collaboratifs
-                    en lien avec des entreprises partenaires.
-                </p>
-
-                <blockquote>
-                    "L’approche pédagogique axée sur les projets concrets m’a permis
-                    de constituer un portfolio solide. Les intervenants sont des professionnels
-                    passionnés qui partagent leur expérience du terrain."
-                </blockquote>
-            </div>
-
-            <div class="card">
-                <h3>Thomas Nguyen – Promotion 2022</h3>
-                <p><strong>Poste actuel :</strong> Cloud & DevOps Engineer – Groupe technologique</p>
-
-                <p>
-                    Thomas a choisi la spécialisation Cloud Computing.
-                    Il a travaillé sur la mise en place d’architectures AWS sécurisées
-                    et la conteneurisation d’applications avec Docker et Kubernetes.
-                </p>
-
-                <p>
-                    Il intervient aujourd’hui sur des projets à grande échelle
-                    impliquant haute disponibilité et automatisation CI/CD.
-                </p>
-
-                <blockquote>
-                    "La formation m’a permis de comprendre les enjeux réels
-                    des infrastructures modernes. J’ai apprécié l’équilibre
-                    entre théorie avancée et mise en pratique."
-                </blockquote>
-            </div>
-
-        </div>
-    </section>
-    <section style="text-align:center;">
+    <section style="text-align:center; padding: 50px 0;">
         <h2 class="section-title">Prêt à rejoindre l’aventure ?</h2>
-        <button onclick="location.href='contact.html'">
-            Candidater Maintenant
+        <button class="cta-button" onclick="location.href='https://www.efrei.fr/candidature/' ">
+        Candidater Maintenant
         </button>
     </section>
 
 </main>
-<?php include("footer.php"); ?>
 
+<?php include("footer.php"); ?>
