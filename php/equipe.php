@@ -1,5 +1,5 @@
 <?php include("header.php"); ?>
-<?php include("navigation.php")?>
+<?php include("navigation.php"); ?>
 
 <main>
   <section>
@@ -52,7 +52,8 @@
 
   <section class="expertise-section">
     <h2 class="section-title">Domaines d'Expertise</h2>
-    <div class="list_prof"> <div class="prof east-bay">
+    <div class="list_prof">
+        <div class="prof east-bay">
             <h3>Intelligence Artificielle</h3>
             <p>Deep Learning & NLP</p>
         </div>
@@ -91,3 +92,6 @@
 </main>
 
 <?php include("footer.php"); ?>
+
+<script>document.body.dataset.page = "equipe";</script>
+<script src="js/script.js"></script>
