@@ -1,0 +1,52 @@
+{
+  "equipe": [
+    {
+      "nom": "Dr. Sophie Martin",
+      "poste": "Responsable Pédagogique",
+      "specialite": "IA & Machine Learning",
+      "classe_css": "big-stone"
+    },
+    {
+      "nom": "Prof. Jean Dupont",
+      "poste": "Enseignant-Chercheur",
+      "specialite": "Cybersécurité",
+      "classe_css": "east-bay"
+    },
+    {
+      "nom": "Dr. Marie Chen",
+      "poste": "Maître de Conférences",
+      "specialite": "Développement Web",
+      "classe_css": "horizon"
+    },
+    {
+      "nom": "Prof. Ahmed Benali",
+      "poste": "Professeur",
+      "specialite": "Réseaux & Systèmes",
+      "classe_css": "big-stone"
+    },
+    {
+      "nom": "Dr. Claire Dubois",
+      "poste": "Enseignante",
+      "specialite": "Base de Données",
+      "classe_css": "horizon"
+    },
+    {
+      "nom": "Prof. Lucas Bernard",
+      "poste": "Enseignant-Chercheur",
+      "specialite": "Cloud Computing",
+      "classe_css": "polo-blue"
+    },
+    {
+      "nom": "Dr. Emma Wilson",
+      "poste": "Maître de Conférences",
+      "specialite": "DevOps",
+      "classe_css": "cornflower"
+    },
+    {
+      "nom": "Prof. Thomas Leroy",
+      "poste": "Professeur",
+      "specialite": "Architecture Logicielle",
+      "classe_css": "firefly"
+    }
+  ]
+}

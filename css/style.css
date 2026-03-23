@@ -2,7 +2,7 @@
    IMPORTATIONS ET RÉINITIALISATION (GLOBAL)
    ========================================================================== */
 
-/* Reset universel : on met les marges à 0 et on force le calcul des bordures dans la largeur */
+/* on met les marges à 0 et on force le calcul des bordures dans la largeur */
 * {
     margin: 0;
     padding: 0;
@@ -10,21 +10,11 @@
 }
 
 /* Style de base du document */
-/* Style de base du document */
 body {
     font-family: 'Poppins', sans-serif; /* Application de la police */
-    
-    /* Remplacement du dégradé par l'image fond.png */
-    background-image: url("fond.png"); 
-    background-size: cover;        /* L'image couvre toute la surface */
-    background-position: center;   /* L'image est centrée */
-    background-repeat: no-repeat;  /* L'image ne se répète pas */
-    background-attachment: fixed;  /* L'image reste fixe lors du scroll (optionnel mais recommandé) */
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fond.png");
-    
+    background: linear-gradient(135deg, #82AFE5); /* Fond dégradé bleu ciel */
     color: white; /* Texte blanc par défaut */
 }
-
 
 /* ==========================================================================
    COMPOSANT : HEADER (Navigation commune à toutes les pages)
@@ -195,7 +185,9 @@ section {
     transform: translateY(-1px); /* Redescend légèrement au clic */
 }
 
-/*PAGE : PRÉSENTATION / SERVICES (Système de cartes)*/
+/* ==========================================================================
+   PAGE : PRÉSENTATION / SERVICES (Système de cartes)
+   ========================================================================== */
 
 .cards,
 .presentation-container {
@@ -646,4 +638,24 @@ footer {
     .info-card h2, .form-card h2 {
         font-size: 1.6rem;   /* Titres plus petits */
     }
+}
+/* Base : Mobile First */
+.team-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+/* Tablette et Desktop */
+@media (min-width: 768px) {
+    .team-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Mode Sombre */
+.dark-theme {
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
